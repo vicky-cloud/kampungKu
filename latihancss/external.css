@@ -1,0 +1,173 @@
+#tulisan{
+	color: 10px;
+}
+.box{
+	background: red;
+	padding: 10px;
+}
+/*background*/
+body{
+	background: green;
+	color: white;
+}
+
+/*margin dan padding*/
+.box-satu{
+	background: blue;
+	height: 200px;
+	width: 300px;
+	margin: 20px;
+}
+
+.box-dua{
+	background: red;
+	height: 100px;
+	width: 200px;
+	margin-left: 70px;
+}
+
+h1{
+	text-align: center;
+}
+
+/*mengatur font*/
+.tulisan_satu{
+	font-color: red;
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+.tulisan_dua{
+	font-color: green;	
+	font-size: 24pt;
+	font-style: italic;
+}
+
+.tulisan_tiga{
+	font-color: red;
+	font-weight: bold;
+	font-style: oblique;	
+}
+
+/*mengatur hyperlink*/
+.link{
+        font-size: 20pt;
+}
+.link:hover{
+	color: red;
+}
+.link:link{
+	color: blue;
+}
+.link:active{
+	color: green;
+}
+.link:visited{
+	background: yellow;
+}
+
+/*mengatur format text*/
+.tulisan_kiri{
+	text-align: left;
+}
+
+.tulisan_kanan{
+	text-align: right;
+}
+
+.tulisan_tengah{
+	text-align: center;
+}
+
+.tulisan_justify{
+	text-align: justify;
+}
+
+/*mengatur position*/
+/* static,relative,fixed,absolute */
+/*.kotak{
+	background: blue;
+	position: static; 
+}*/
+
+/*mengatur border*/
+#garis_1{
+	border-style:solid;
+}
+#garis_2{
+	border-style: dotted;
+}
+#garis_3{
+	border-style: dashed;
+}
+#garis_4{
+	border-style: double;
+}
+#garis_5{
+	border-style: groove;
+}
+#garis_6{
+	border-style: inset;
+}
+#garis_7{
+	border-style: outset;
+}
+#garis_8{
+	border-style: ridge;
+}
+
+/*mengatur list*/
+/*h1{
+	text-align: center;
+}*/
+ul.makanan{
+	list-style-type: square; /* list dengan bentuk square */
+}
+ul.minuman{
+	list-style-type: circle;  /* list dengan bentuk lingkaran */
+}
+ol.alamat{
+	list-style-type: upper-alpha;  /* list dengan bentuk alpha */
+}
+ol.mobil{
+	list-style-type: upper-roman;  /* list dengan bentuk romawi */
+}
+
+/*mengunakan float*/
+.gambar{
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*efek hover zoom */
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+ 
+.zoom-effect {  
+  position: relative;
+  width: 100%;
+  height: 360px;
+  margin: 0 auto;
+  overflow: hidden;  
+}
+
+.kotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+ 
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 700px;
+}
+ 
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}

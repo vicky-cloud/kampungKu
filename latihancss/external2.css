@@ -1,0 +1,86 @@
+body{
+	background: #35A9DB;
+	font-family: roboto;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+}
+
+/*contoh1*/
+/*support google chrome*/
+.contoh1::-webkit-input-placeholder{
+	color: red;
+}
+
+/*support mozilla*/
+.contoh1:-moz-input-placeholder{
+	color: red;
+}
+
+/*support internet explorer*/
+.contoh1:-ms-input-placeholder{
+	color: red;
+}
+
+
+/*contoh2*/
+/*support google chrome*/
+.contoh2{
+	margin: 10px;
+	font-size: 12pt;
+	padding: 10px;
+}
+
+.contoh2::-webkit-input-placeholder{
+	color: blue;
+}
+
+/*support mozilla*/
+.contoh2:-moz-input-placeholder{
+	color: blue;
+}
+
+/*support internet explorer*/
+.contoh2:-ms-input-placeholder{
+	color: blue;
+}
+
+
+/*contoh3*/
+/*support google chrome*/
+.contoh3{
+	margin: 10px;
+	font-size: 13pt;
+	padding: 10px;	
+	background: transparent;
+	color: #fff;
+	font-family: roboto;
+	border: none;
+}
+
+.contoh3:focus{
+	outline: none;
+}
+
+.contoh3::-webkit-input-placeholder{
+	color: white;
+}
+
+/*support mozilla*/
+.contoh3:-moz-input-placeholder{
+	color: white;
+}
+
+/*support internet explorer*/
+.contoh3:-ms-input-placeholder{
+	color: white;
+}
+
+.lingkaran1{
+	width: 200px;
+	height: 200px;
+	background: #dac52c;
+	border-radius: 100%;
+}
